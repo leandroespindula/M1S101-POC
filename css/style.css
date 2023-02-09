@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+}
+
+.imagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagens__zoom:hover {
+    zoom: 1.4   ;
+}
+
+.imagens:hover {
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1)
+}   
