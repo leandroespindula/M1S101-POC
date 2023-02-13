@@ -11,8 +11,15 @@
     margin-bottom: 2rem;
 }
 
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .imagens {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -21,5 +28,12 @@
 
 .imagens__zoom:hover {
     zoom: 1.4;
+} 
+
+.imagens-principal {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-right: 13rem;
 }
 
