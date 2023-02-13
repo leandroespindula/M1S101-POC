@@ -3,8 +3,12 @@
     margin: 0;
 }
 
-body {
-
+#titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    margin-bottom: 2rem;
 }
 
 .imagens {
@@ -12,13 +16,10 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 3px;   
 }
 
 .imagens__zoom:hover {
-    zoom: 1.4   ;
+    zoom: 1.4;
 }
 
-.imagens:hover {
-    -webkit-transform: scale(1.1);
-   transform: scale(1.1)
-}   
